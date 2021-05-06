@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 65%;
+    height: 100%;
+    margin: 5px auto;
+    /* border: 1px solid red; */
+
+}
+.container{  
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 10px black;
+}
+
+/* left part CSS */
+.left-part{
+    flex-basis: 24%;
+    background-color: #0474BA;
+    height: 148vh;
+    color: white;
+}
+.profile-photo{
+    text-align: center;
+    padding: 10px;
+    
+}
+.profile-photo img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #dfe6ed;
+
+}
+.personal{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 26px;
+}
+.profile-content{
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    display: flex;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.icon{
+    font-size: 13px;
+}
+.icon-content{
+    margin-left: 15px;
+}
+.head{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* padding-bottom: 3px; */
+}
+.details{
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Right Part CSS */
+.right-part{
+    padding: 5px 15px;
+    /* background-color: #EBEBEB; */
+    background-color:white;
+}
+.name{
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px;
+    color: #0474BA;
+    /* margin-left: 25px; */
+}
+.career-objective{
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.education{
+    display: flex;
+    margin-top: 15px;
+}
+.e-logo{
+    font-size: 18px;
+    margin-right: 15px;
+    padding-top: 4px;
+    color: #0474BA;
+    transition: 0.5s;
+}
+.e-logo:hover{
+    transform: scale(1.2);
+}
+.e-data p{
+    font-size: 20px;
+    color: #0474BA;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 1s;
+    display: block;
+    
+}
+.e-data p:hover{
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.e-detail{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+.project-head{
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+.main-li{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.inner-ul{
+    list-style-type: none;
+    padding-top: 3px;
+}
+.inner-ul li{
+    font-size: 13px;
+}
+li{
+    text-align: justify;
+    line-height: 20px;
+}
+footer{
+    width: 65%;
+    height: 40px;
+    background-color: #0474BA;
+    color: white;
+    position: absolute;
+    top: 1020px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 5px black; */
+}
+footer p{
+    margin-left: 160px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
